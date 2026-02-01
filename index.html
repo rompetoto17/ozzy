@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Matrix Inverse Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Matrix Inverse Calculator</h1>
+
+    <label>Matrix size (n × n):</label>
+    <input type="number" id="size" min="1">
+    <button onclick="createMatrix()">Create Matrix</button>
+
+    <div id="matrix"></div>
+
+    <button onclick="invertMatrix()">Compute Inverse</button>
+
+    <h2>Result:</h2>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
